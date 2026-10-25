@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f2ec">
+  <meta name="description" content="A personal website for films, vlogs, graphic design, edits, and music.">
+  <title>YOUR NAME — personal website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-frame">
+    <header class="site-header">
+      <a class="site-logo" href="#home" aria-label="Back to home">YOUR NAME<span>®</span></a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">MENU <span>＋</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">HOME <span>A</span></a>
+        <a href="#work" class="nav-link">WORK <span>B</span></a>
+        <a href="#sounds" class="nav-link">SOUNDS <span>C</span></a>
+        <a href="#about" class="nav-link">ABOUT <span>D</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro" id="home">
+        <div class="intro-label"><span>INDEPENDENT CREATIVE / INTERNET PERSON</span><span>EST. 20XX — PRESENT</span></div>
+        <div class="intro-title-wrap">
+          <p class="side-note">A SMALL<br>COLLECTION OF<br>THINGS I MAKE<br>AND KEEP.</p>
+          <h1><span>Hi, I'm</span><br><em>your name.</em></h1>
+          <span class="orbit" aria-hidden="true">✳</span>
+        </div>
+        <div class="intro-bottom">
+          <p>Making moving images, visual experiments, music, and other things that probably belong in a folder somewhere.</p>
+          <a href="#work" class="round-link"><span>SEE<br>WHAT'S HERE</span><b>↘</b></a>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true"><div class="marquee-inner"><span>FILM / DESIGN / EDITS / VLOGS / MUSIC / LITTLE THINGS /&nbsp;</span><span>FILM / DESIGN / EDITS / VLOGS / MUSIC / LITTLE THINGS /&nbsp;</span></div></div>
+
+      <section class="work section" id="work">
+        <div class="section-top">
+          <div><p class="eyebrow">01 / SELECTED WORKS</p><h2>Things I've <em>made</em></h2></div>
+          <p class="section-aside">Choose a category.<br>Open whatever looks interesting.</p>
+        </div>
+        <div class="category-nav" role="group" aria-label="Filter work">
+          <button class="category active" data-filter="all" aria-pressed="true">ALL <sup>06</sup></button>
+          <button class="category" data-filter="film" aria-pressed="false">FILM</button>
+          <button class="category" data-filter="vlog" aria-pressed="false">VLOG</button>
+          <button class="category" data-filter="design" aria-pressed="false">DESIGN</button>
+          <button class="category" data-filter="edit" aria-pressed="false">EDITS</button>
+          <button class="category" data-filter="music" aria-pressed="false">MUSIC</button>
+        </div>
+        <div class="work-grid">
+          <article class="work-item wide" data-category="film">
+            <button class="work-button" data-id="film">
+              <span class="work-art art-film"><span class="art-label">FILM 001 / 2026</span><span class="art-film-title">somewhere,<br>after the rain</span><span class="art-bottom">A SHORT FILM — 04:32</span><span class="open-mark">↗</span></span>
+              <span class="work-caption"><span><b>somewhere, after the rain</b><small>Short film / 2026</small></span><span class="index">[ 01 ]</span></span>
+            </button>
+          </article>
+          <article class="work-item" data-category="vlog">
+            <button class="work-button" data-id="vlog">
+              <span class="work-art art-vlog"><span class="art-label">PERSONAL LOG / 002</span><span class="vlog-sticker">a few<br>days<br>outside</span><span class="open-mark">↗</span></span>
+              <span class="work-caption"><span><b>a few days outside</b><small>Vlog / 2026</small></span><span class="index">[ 02 ]</span></span>
+            </button>
+          </article>
+          <article class="work-item" data-category="design">
+            <button class="work-button" data-id="design">
+              <span class="work-art art-design"><span class="design-type">NOT<br>HERE<br>YET.</span><span class="design-circle">STUDY<br>NO. 04</span><span class="open-mark">↗</span></span>
+              <span class="work-caption"><span><b>not here yet.</b><small>Graphic design / 2026</small></span><span class="index">[ 03 ]</span></span>
+            </button>
+          </article>
+          <article class="work-item" data-category="edit">
+            <button class="work-button" data-id="edit">
+              <span class="work-art art-edit"><span class="art-label">VIDEO EXPERIMENT / 004</span><span class="edit-type">CUT /<br>PAUSE /<br>REPEAT</span><span class="open-mark">↗</span></span>
+              <span class="work-caption"><span><b>cut / pause / repeat</b><small>Video edit / 2025</small></span><span class="index">[ 04 ]</span></span>
+            </button>
+          </article>
+          <article class="work-item" data-category="music">
+            <button class="work-button" data-id="music">
+              <span class="work-art art-music"><span class="music-disc"></span><span class="music-title">demo<br>for later</span><span class="art-label">AUDIO FILE / 005</span><span class="open-mark">↗</span></span>
+              <span class="work-caption"><span><b>demo for later</b><small>Music / 2026</small></span><span class="index">[ 05 ]</span></span>
+            </button>
+          </article>
+          <article class="work-item" data-category="design">
+            <button class="work-button" data-id="posts">
+              <span class="work-art art-posts"><span class="post-window"><small>untitled post #17</small><b>what if<br>we just<br>logged off</b><i>♡ 404</i></span><span class="open-mark">↗</span></span>
+              <span class="work-caption"><span><b>untitled post #17</b><small>Digital design / 2025</small></span><span class="index">[ 06 ]</span></span>
+            </button>
+          </article>
+        </div>
+        <p class="empty-message" hidden>No work in this category yet. Maybe that's the next thing to make.</p>
+      </section>
+
+      <section class="sound-section section" id="sounds">
+        <div class="section-top">
+          <div><p class="eyebrow">02 / THINGS THAT MAKE NOISE</p><h2>Sound <em>shelf</em></h2></div>
+          <p class="section-aside">Demos, finished tracks,<br>loops, and accidents.</p>
+        </div>
+        <div class="sound-row">
+          <span class="sound-number">01</span><span class="sound-cover cover-one">A</span>
+          <div class="sound-meta"><b>demo for later</b><small>rough mix / 02:41 / 2026</small></div>
+          <audio controls preload="none" aria-label="Play demo for later" src="assets/demo-for-later.mp3"></audio>
+        </div>
+        <div class="sound-row">
+          <span class="sound-number">02</span><span class="sound-cover cover-two">B</span>
+          <div class="sound-meta"><b>seven little windows</b><small>loop study / 01:12 / 2025</small></div>
+          <audio controls preload="none" aria-label="Play seven little windows" src="assets/seven-little-windows.mp3"></audio>
+        </div>
+        <p class="audio-note">The players will work once you add your own MP3 files to the <code>assets</code> folder and keep these filenames, or change the paths here.</p>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="section-top"><div><p class="eyebrow">03 / A LITTLE CONTEXT</p><h2>About <em>me</em></h2></div></div>
+        <div class="about-layout">
+          <div class="about-art"><span>HELLO<br>FROM<br>MY SIDE<br>OF THE<br>SCREEN.</span><i>✳</i></div>
+          <div class="about-copy">
+            <p class="about-lede">I'm [YOUR NAME], an independent maker of images, videos, sounds, and digital objects.</p>
+            <p>This is a personal site, not a complete record of everything I've done. I like things that feel a little nostalgic, a little synthetic, and a little hard to explain. Add a few real details about what you make, what you're learning, or what you're interested in.</p>
+            <p class="tiny-note">CURRENTLY INTO: [FILM / SOUND / DESIGN / WHATEVER YOU'RE INTO]</p>
+            <a class="underlined-link" href="mailto:you@example.com">SEND ME A NOTE ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="end-card">
+        <p>YOU MADE IT<br>TO THE BOTTOM.</p>
+        <span>THANKS FOR LOOKING ♡</span>
+        <a href="#home" aria-label="Back to top">↑</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> YOUR NAME</span>
+      <span>MADE ON A COMPUTER, WITH FEELING.</span>
+      <div><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">IG ↗</a><a href="https://www.youtube.com/" target="_blank" rel="noreferrer">YT ↗</a><a href="https://bandcamp.com/" target="_blank" rel="noreferrer">BC ↗</a></div>
+    </footer>
+  </div>
+
+  <dialog class="project-modal" id="project-modal" aria-labelledby="modal-title">
+    <div class="modal-bar"><span id="modal-label">PROJECT / 001</span><button id="modal-close" type="button">CLOSE ×</button></div>
+    <div class="modal-body"><p class="eyebrow" id="modal-number">[ 01 ]</p><h2 id="modal-title">Project title</h2><p id="modal-description"></p><div id="modal-media" class="modal-media"></div><a id="modal-link" class="underlined-link" href="#" target="_blank" rel="noreferrer" hidden>OPEN FULL PROJECT ↗</a></div>
+  </dialog>
+</body>
+</html>
