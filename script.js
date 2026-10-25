@@ -1,9 +1,9 @@
 // Edit this project list to make each tile open your own work.
 const projects = {
   film: {
-    number: "01", label: "FILM / 2026", title: "somewhere, after the rain",
-    description: "A short film about a place, a memory, and the version of it that stays with you. Replace this with your own description.",
-    type: "video", media: "", link: ""
+    number: "01", label: "FILM / 2026", title: "Japan 2026",
+    description: "A film about Japan in 2026.",
+    type: "video", media: "https://www.youtube-nocookie.com/embed/tnHTJ6-r95c", link: ""
   },
   vlog: {
     number: "02", label: "VLOG / 2026", title: "a few days outside",
